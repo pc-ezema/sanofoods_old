@@ -13,7 +13,17 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'SANOFOODS'),
+    'facebook' => 'https://web.facebook.com/Sanofoodsltd-101262698316740',
+    'twitter' => '#',
+    'instagram' => 'https://instagram.com/sanofoodsltd/',
+    'telephone_1' => '(+234) 906-2822-258',
+    'telephone_2' => '(+234) 904-6040-991',
+    'email' => 'info@sanofoods.ng',
+    'location' => 'Lagos, Nigeria',
+    'address' => '20, Oba Ogunusi Road, Akiode Bus stop, Ojudu Berger, 
+    Lagos, Nigeria' ,
+    'web' => 'www.sanofoods.ng',
 
     /*
     |--------------------------------------------------------------------------
@@ -67,7 +77,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'Africa/Lagos',
 
     /*
     |--------------------------------------------------------------------------
