@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('breadcrumb')
- @includeIf('layouts.breadcrumb')
+ @includeIf('layouts.breadcrumb', ['title' => 'Contact Us' , 'subtitle' => 'Get in touch'])
 @endsection
 
 @section('main-content')
@@ -121,7 +121,7 @@
 
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <input type="text" name="subject" placeholder="subject">
+                                            <input type="text" name="subject" placeholder="Subject">
                                         </div>
 
                                     </div>
@@ -133,8 +133,9 @@
                                     </div>
                                 </div>
 
-
-                          
+                               
+                                {!! NoCaptcha::renderJs() !!}
+                                {!! NoCaptcha::display() !!}
                                      <!-- Button two -->
                     <button type="submit" class="main-btn-two">
                         <div class="text-btn">
@@ -146,6 +147,8 @@
                             <span class="arrow-two"><i class="fas fa-caret-right"></i></span>
                         </div>
                     </button>
+                    
+                    
                             </form>
 
                             

@@ -180,8 +180,8 @@
                 <div class="single-contact">
                     <span class="flaticon-call"></span>
                     <div class="info-cont">
-                        <p>+(02) 0114-9912-318</p>       
-                        <p>+(02) 0111-7457-354</p>
+                        <p>{{ config('app.telephone_1') }}</p>       
+                        <p>{{ config('app.telephone_2') }}</p>
 
                     </div>
                 </div>
@@ -189,16 +189,15 @@
                 <div class="single-contact">
                     <span class="flaticon-email"></span>
                     <div class="info-cont">
-                        <p>Hello@example.com</p>
-                        <p>support@yourwebsite.com</p>
+                        <p>{{ config('app.email') }}</p>
                     </div>
                 </div>
 
                 <div class="single-contact">
                     <span class="flaticon-location"></span>
                      <div class="info-cont">
-                        <p>US - Los Angeles 5135 - 4234 </p>
-                        <p>In The Center Street Name Here</p>
+                        <p style="line-height: 1.3rem">{{ config('app.address') }} </p>
+                        
                      </div>
                 </div>
 
@@ -206,7 +205,7 @@
                 <div class="single-contact">
                     <span class="flaticon-time"></span>
                     <div class="info-cont">    
-                        <p>Monday - Fraiday, 9am - 5pm,</p>
+                        <p>Monday - Friday, 9am - 5pm,</p>
                         <p>Saturday & Sunday - CLOSED</p>
 
                     </div>
@@ -223,10 +222,9 @@
             <div class="line-side"></div>
             <!-- List Icons Social Media-->
             <ul class="social-media">
-               <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
-               <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
-               <li><a href="#" class="instagram"><i class="fab fa-instagram"></i></a></li>
-               <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+               <li><a href="{{ config('app.facebook') }}" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="{{ config('app.twitter') }}" class="twitter"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="{{ config('app.instagram') }}" class="instagram"><i class="fab fa-instagram"></i></a></li>
             </ul> 
 
         </div>

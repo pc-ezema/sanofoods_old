@@ -25,6 +25,7 @@ class HomepageController extends Controller
             'phone' => 'required',
             'subject' => 'required',
             'message' => 'required',
+            'g-recaptcha-response' => 'required|captcha'
         ));
 
         /** Create an instance of the model and save the input */
@@ -55,5 +56,10 @@ class HomepageController extends Controller
         session()->flash('success_report' , 'Contact Form submitted successfully!!');
         return back();
         
+    }
+
+    public function faq(){
+        $datas = \App\Repositories\Faq::getFaq();
+        return view('faq')->with('datas' , $datas);
     }
 }

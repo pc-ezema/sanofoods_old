@@ -149,13 +149,13 @@
         </div>
                 </div>
                  
-                 <div class="col-md-6">
+                 {{-- <div class="col-md-6">
                      <ul class="links-of-footer">
             <li><a href="#">View Map</a></li> 
             <li><a href="#">Privacy</a></li> 
             <li><a href="#">Terms of Use</a></li> 
         </ul>
-                </div>
+                </div> --}}
              </div>
         </div>   
     </div> 

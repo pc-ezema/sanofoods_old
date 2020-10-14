@@ -1,9 +1,9 @@
 <section id="page" class="header-breadcrumb">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <span class="page-title-line">Contact Us</span>
-                <h1 class="page-title-heading">Get in Touch.
+            <div class="col-lg-7">
+                <span class="page-title-line">{{ $title }}</span>
+                <h1 class="page-title-heading">{{ $subtitle }}
                 </h1>
             </div>
         </div>
