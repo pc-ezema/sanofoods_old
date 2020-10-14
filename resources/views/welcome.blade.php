@@ -192,6 +192,10 @@
     <div class="overlay"></div>
     <div class="container">
         
+       <div class="row section-title"> 
+            
+        </div>
+        
         <div class="row content-statistics">
             <div class="col-lg-6 no-padding text-support">
                 <div class="section-title-left">
@@ -201,10 +205,35 @@
                 <p class="p-support">Get a free quote for your Consultation business Provide discussion information and we’ll get back to you as soon</p>
                 
 
-        <div class="contact-support">
-                          
+        
             </div>
-            </div>
+            <div class="col-lg-6 no-padding">
+                <div class="contact-support">
+                    <h6>Do You Have Any Question?</h6>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="single-contact">
+                                <span class="flaticon-call"></span>
+                                <div class="info-cont">
+                                    <p>+(02) 0114-9912-318</p>       
+                                    <p>+(02) 0111-7457-354</p>
+                                </div>
+                            </div>
+                     
+                             </div>
+                   
+                            <div class="col-sm-6">   
+                                <div class="single-contact">
+                                    <span class="flaticon-email"></span>
+                                    <div class="info-cont">
+                                        <p>Hello@example.com</p>
+                                        <p>support@yourwebsite.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                    </div>
+                    </div>
             </div>
         </div>
         
