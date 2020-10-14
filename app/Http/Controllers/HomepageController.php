@@ -12,6 +12,14 @@ class HomepageController extends Controller
         return view('welcome');
     }
 
+    public function aboutUS(){
+        return view('about-us');
+    }
+
+    public function products(){
+        return view('products');
+    }
+
     public function contactUs(){
         return view('contact-us');
     }

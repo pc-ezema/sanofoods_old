@@ -39,7 +39,7 @@
       
 
     <!-- New Item -->
-    <div class="owl-item cover-background" style="background-image: url(http://placehold.it/1920x1280); height: 700px; min-height: 100%;"> 
+    {{-- <div class="owl-item cover-background" style="background-image: url(http://placehold.it/1920x1280); height: 700px; min-height: 100%;"> 
          <div class="overlay"></div>
         <div class="container">
            <div class="row">
@@ -71,9 +71,9 @@
 
            </div>
         </div>
-    </div>
+    </div> --}}
     
-     <!-- New Item -->
+     {{-- <!-- New Item -->
     <div class="owl-item cover-background" style="background-image: url(http://placehold.it/1920x1280); height: 700px; min-height: 100%;"> 
          <div class="overlay"></div>
         <div class="container">
@@ -104,6 +104,6 @@
             </div> 
            </div>
         </div>
-    </div>
+    </div> --}}
 </div>
 </section>
