@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('slider')
+  @includeIf('layouts.slider')
+@endsection
+
 @section('main-content')
 <div class="features pt-120 pb-90">
     <div class="container">

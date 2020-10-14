@@ -132,7 +132,7 @@
             <div class="col-lg-4 col-sm-12 no-padding">
                 <div class="single-item">
                     <span class="flaticon-location"></span>
-                    <p>{{ config('app.address') }} </p>
+                    <p style="line-height: 1.3rem">{{ config('app.address') }} </p>
                 </div>
             </div>
         </div>

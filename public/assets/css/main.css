@@ -40,9 +40,12 @@ iframe {
     border: none;
 }
 a,
+button,
 a:hover,
 a:focus,
 a:active,
+button:hover,
+button:active,
 button:focus {
     text-decoration: none;
     border: none;
