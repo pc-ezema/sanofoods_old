@@ -1,7 +1,7 @@
 @extends('layouts.frontend')
 
 @section('breadcrumb')
- @includeIf('layouts.breadcrumb')
+ @includeIf('layouts.breadcrumb', ['title' => 'About Us' , 'subtitle' => 'Why Choose Us'])
 @endsection
 
 @section('main-content')
