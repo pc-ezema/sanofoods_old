@@ -29,28 +29,28 @@
                         <div class="col-6">
                             <ul class="footer-link mb-0">
                                 <li>
-                                    <a href="about-us.html">
+                                    <a href="/about-us">
                                         <span><i class="fas fa-angle-right"></i></span> About Us
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="why-choose-us.html">
+                                    {{-- <a href="why-choose-us.html">
                                         <span><i class="fas fa-angle-right"></i></span> why choose us
                                     </a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a href="our-team.html">
                                         <span><i class="fas fa-angle-right"></i></span> Meet Our Team
                                     </a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a href="case-study-one.html">
                                         <span><i class="fas fa-angle-right"></i></span> Our Projects
                                     </a>
-                                </li>
+                                </li> --}}
 
                                 <li>
-                                    <a href="contact-us.html">
+                                    <a href="/contact-us">
                                         <span><i class="fas fa-angle-right"></i></span> Contact Us
                                     </a>
                                 </li>
@@ -58,14 +58,14 @@
                         </div>
                          <div class="col-6">
                             <ul class="footer-link mb-0">
-                                <li>
+                                {{-- <li>
                                     <a href="work-with-us.html">
                                         <span><i class="fas fa-angle-right"></i></span> Work with us
                                     </a>
-                                </li>
+                                </li> --}}
 
                                 <li>
-                                    <a href="faq.html">
+                                    <a href="/faq">
                                         <span><i class="fas fa-angle-right"></i></span> Faqs
                                     </a>
                                 </li>
@@ -77,15 +77,15 @@
                                 </li>
 
                                 <li>
-                                    <a href="our-pricing.html">
-                                        <span><i class="fas fa-angle-right"></i></span> Our Pricing
+                                    <a href="/our-products">
+                                        <span><i class="fas fa-angle-right"></i></span> Our Products
                                     </a>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <a href="services-one.html">
                                         <span><i class="fas fa-angle-right"></i></span> Our Services
                                     </a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>

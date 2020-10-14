@@ -149,7 +149,7 @@
                             <div class="call-us">
                                 
                                 <span>Call us or for any inquiries</span>
-                                <span class="phone-number"><a href="#">+(02) 0114-9912-318</a></span>
+                                <span class="phone-number"><a href="#">{{ config('app.telephone_2') }}</a></span>
                                 
                                 
                             </div>
