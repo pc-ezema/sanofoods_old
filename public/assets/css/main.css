@@ -1211,7 +1211,7 @@ body {
     border-bottom: 1px solid #f1f1f1;
 }
 .upper-bar-dark {
-    background: #02185a;
+    background: #060606;
 }
 .upper-bar .contact-us-bar {
     font-weight: 500;
@@ -1535,7 +1535,7 @@ nav {
     color: #02185a;
     text-decoration: none;
     display: block;
-    margin-right: 28px;
+    margin-right: 50px;
     font-size: 13px;
     font-weight: 700;
     padding: 30px 0;
@@ -6897,7 +6897,7 @@ text-right {
 ----------------------------------------------------------------*/
 footer {
     padding-top: 80px;
-    background: #01144a;
+    background: #060606;
     position: relative;
     
 
@@ -7096,7 +7096,7 @@ footer::before {
 .footer-bar {
     z-index: 3;
     position: relative;
-    background: #01144a;
+    background: #060606;
 }
 
 footer .copyright {

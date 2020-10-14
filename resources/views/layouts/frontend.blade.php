@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Facnex - Industry & Factory HTML Template">
     <meta name="keywords" content="new, html, Facnex, design, Consulting, Business, Portfolio, Agency, advanced,">
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" title="Favicon" sizes="16x16"/>
+    <link rel="shortcut icon" href="/assets/images/favicon.png" title="Favicon" sizes="16x16"/>
     <!-- Main Page Title -->
     <title>Facnex - Industry & Factory HTML Template  </title>
     <!-- Google Font -->

@@ -18,6 +18,8 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/' , 'HomepageController@index');
+Route::get('about-us' , 'HomepageController@aboutUs');
+Route::get('our-products' , 'HomepageController@products');
 Route::get('/contact-us' , 'HomepageController@contactUs');
 Route::post('/contact-us' , 'HomepageController@contactUsConfirm');
 Route::get('/faq' , 'HomepageController@faq');
